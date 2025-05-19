@@ -25,7 +25,7 @@ const navbarItems = [
 
 export const Navbar = () => {
 	const pathname = usePathname();
-	const [isSidebaarNavOpen, setIsSidebarNavOpen] = useState(false);
+	const [isSidebarNavOpen, setIsSidebarNavOpen] = useState(false);
 
 	return (
 		<nav className="h-20 flex border-b justify-between font-medium bg-white">
@@ -61,7 +61,7 @@ export const Navbar = () => {
 				</Button>
 				<SidebarNav
 					items={navbarItems}
-					open={isSidebaarNavOpen}
+					open={isSidebarNavOpen}
 					onOpenChange={setIsSidebarNavOpen}
 				/>
 			</div>
