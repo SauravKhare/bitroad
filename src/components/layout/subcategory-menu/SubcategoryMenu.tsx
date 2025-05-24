@@ -12,7 +12,6 @@ export const SubcategoryMenu = ({
 	isOpen,
 	position,
 }: SubcategoryMenuProps) => {
-	console.log(position);
 	if (
 		!isOpen ||
 		!category.subcategories ||
