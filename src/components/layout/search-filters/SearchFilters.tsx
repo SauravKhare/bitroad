@@ -1,5 +1,5 @@
 import { Categories } from "../categories/Categories";
-import { SearchInput } from "../search-input/SeaarchInput";
+import { SearchInput } from "../search-input/SearchInput";
 
 interface SearchFiltersProps {
 	data: any;
